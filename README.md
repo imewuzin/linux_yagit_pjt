@@ -26,7 +26,7 @@
 | 팀원                                 | 프로필                                                                            | 회고                                                                                     |
 | ---------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
 | [임유진](https://github.com/imewuzin) | <img width="120" src="https://avatars.githubusercontent.com/u/156065214?v=4"/> | ACL로 협업 권한을 직접 설계하며 Linux 권한 체계를 깊이 이해했습니다. 단순한 bash 스크립트도 실제 운영 툴처럼 발전할 수 있음을 체감했습니다. |
-| [이용훈](https://github.com/dldydgns) | <img width="120" src="https://avatars.githubusercontent.com/u/56614731?v=4"/>  | 멤버 rwx/비멤버 r-x 정책을 구현하면서 보안과 협업의 균형을 배웠습니다. 실무 권한 정책 설계에도 응용할 수 있다는 자신감을 얻었습니다.        |
+| [이용훈](https://github.com/dldydgns) | <img width="120" src="https://avatars.githubusercontent.com/u/56614731?v=4"/>  | 그룹별 권한 제한을 구현하면서 권한의 중요성을 느꼈고, 실무 권한 정책 설계에도 응용할 수 있다는 자신감을 얻었습니다.        |
 
 ---
 
@@ -94,10 +94,8 @@ main_menu() {
 
 ### 2️⃣ 프로젝트 생성
 
-
-
 ![create.png](./images/create.png)
-* 결과
+<br>* 결과<br>
 ![create_info](./images/pjt_info.png)
 ---
 
@@ -108,6 +106,7 @@ main_menu() {
 * `.yagit_members`에서 user01 제거
 * ACL에서 user01 항목 삭제 → 더 이상 쓰기 불가 (읽기만 가능)
 * 결과
+  
 ![member_plus_info](./images/memout_info.png)
 
 ---
